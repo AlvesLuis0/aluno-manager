@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "gcc",
+			"args": [
+				"${workspaceFolder}\\src\\main.c",
+				"${workspaceFolder}\\src\\include\\@aluno.c",
+				"${workspaceFolder}\\src\\include\\@lista.c",
+				"${workspaceFolder}\\src\\include\\@io.c",
+
+				"-o",
+				"${workspaceFolder}\\manager"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Construir Aluno Manager",
+		}
+	]
+}
