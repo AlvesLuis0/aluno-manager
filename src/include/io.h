@@ -4,5 +4,6 @@
 #include "lista.h"
 
 void IO_ExportarLista(Lista*, char *caminho);
+Lista* IO_ImportarLista(char *caminho);
 
 #endif

@@ -9,6 +9,7 @@ Programa em C que faz um cadastro de alunos.
 - [x] Retorna todos os alunos aprovados;
 - [x] Retorna todos os alunos reprovados;
 - [x] Exporta lista de alunos para arquivo _CSV_;
+- [x] Importa lista de alunos de arquivo _CSV_;
 
 ## TODO:
 - [ ] Criar o typedef struct Aluno com os atributos:
@@ -37,9 +38,3 @@ Programa em C que faz um cadastro de alunos.
 - [ ] Função que retorna o ponteiro de um Aluno a partir de sua matrícula em uma lista, com os parâmetros:
 	* `Aluno *lista,`
 	* `int matricula`
-
-- [ ] Função que retorna um array de Alunos com todos os alunos aprovados de outro array, passando apenas o `Aluno *lista`;
-
-- [ ] Função que retorna um array de Alunos com todos os alunos reprovados de outro array, passando apenas o `Aluno *lista`;
-
-- [ ] Função que exporta a lista de alunos para arquivo _CSV_, passando apenas a `Aluno *lista` como parâmetro;

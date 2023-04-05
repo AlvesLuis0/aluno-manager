@@ -29,7 +29,8 @@ int main() {
 		puts("[3] Selecionar todos os alunos aprovados");
 		puts("[4] Selecionar todos os alunos reprovados");
 		puts("[5] Exportar lista");
-		printf("[6] Limpar tela\n>> ");
+		puts("[6] Importar lista");
+		printf("[7] Limpar tela\n>> ");
 		scanf("%d", &rodando);
 
 		if(rodando)
@@ -47,6 +48,7 @@ void EscolherFuncao(int escolha) {
 	char nome[40];
 	long long int matricula;			
 	float av1, av2, av3;
+	char caminho[256];
 
 	switch(escolha) {
 		case 1:
@@ -92,9 +94,8 @@ void EscolherFuncao(int escolha) {
 			Lista_Deletar(listaReprovados);
 			break;
 
-		case 5:;
+		case 5:
 			// exporta a lista de alunos
-			char caminho[256];
 			getchar();
 			printf("[CAMINHO]: ");
 			fgets(caminho, 256, stdin);
@@ -103,6 +104,16 @@ void EscolherFuncao(int escolha) {
 			break;
 
 		case 6:
+			// importa a lista de alunos
+			getchar();
+			printf("[CAMINHO]: ");
+			fgets(caminho, 256, stdin);
+			LimparString(caminho);
+			Lista_Deletar(lista);
+			lista = IO_ImportarLista(caminho);
+			break;
+
+		case 7:
 			// limpa tela
 			system("cls");
 			break;
