@@ -52,7 +52,7 @@ reprovado, o aluno deve ter uma média geral menor do que 6.
 
 ### Exportar lista
 Ao selecionar a opção de `exportar lista`, você será solicitado a fornecer o nome do arquivo onde a lista
-de alunos será salva. O arquivo será salvo no formato **CSV**, e poderá ser aberto em programas deplanilha,
+de alunos será salva. O arquivo será salvo no formato **CSV**, e poderá ser aberto em programas de planilha,
 como o Microsoft Excel.
 
 ### Importar lista
@@ -72,4 +72,4 @@ a apresentação limpa dos dados.
 ## Conclusão
 Este é um programa simples, mas muito útil para gerenciar alunos. Com ele, você pode cadastrar alunos com
 seus dados e notas, listar os alunos aprovados e reprovados e exportar/importar a lista de alunos em
-formato CSV. Espero que este programa seja útil para você!
+formato **CSV**. Espero que este programa seja útil para você!
