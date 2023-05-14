@@ -8,6 +8,8 @@ Lista* Lista_Nova() {
 	Lista *lista = calloc(1, sizeof(Lista*));
 	lista->alunos = calloc(0, 0);
 	lista->tamanho = 0;
+
+	return lista;
 }
 
 // procedimento que printa cada aluno dentro da lista
