@@ -5,7 +5,7 @@
 
 // função que aloca memória para a lista e retorna seu ponteiro
 Lista* Lista_Nova() {
-	Lista *lista = calloc(1, sizeof(Lista*));
+	Lista *lista = calloc(1, sizeof(Lista));
 	lista->alunos = calloc(0, 0);
 	lista->tamanho = 0;
 
